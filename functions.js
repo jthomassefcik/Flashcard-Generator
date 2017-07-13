@@ -12,12 +12,9 @@ module.exports = {
             }
         ]).then(function(answers) {
             if (answers.test === 'Basic Card') {
-                console.log('Basic Card Test Worked');
                 module.exports.createBasic();
             }
             else if (answers.test === 'Cloze Card') {
-                console.log('Cloze Card Test Worked');
-                    // Finish this !
                 module.exports.createCloze();
             }
             
